@@ -17,7 +17,7 @@ jobs:
     - name: docker login
       env: 
         DOCKER_USER: ${{secrets.DOCKER_HUB_USER}}
-        DOCKER_PASSWORD: ${{secrets.DOCKERHUB_PASS}}
+        DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_PASS}}
         REPO_NAME: ${{secrets.REPO_NAME}}
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
