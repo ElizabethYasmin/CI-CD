@@ -14,18 +14,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: docker login
+    - name: sudo docker login
       env: 
         DOCKER_USER: ${{secrets.DOCKER_HUB_USER}}
         DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_PASS}}
         REPO_NAME: ${{secrets.REPO_NAME}}
       run: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+        sudi docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Get current date # get the date of the build
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d--%M-%S')"
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_HUB_USER}}/${{secrets.REPO_NAME}}:${{steps.date.outputs.date}}
+      run: sudo docker build . --file Dockerfile --tag ${{secrets.DOCKER_HUB_USER}}/${{secrets.REPO_NAME}}:${{steps.date.outputs.date}}
       
     - name: Push_Image
-      run: docker push ${{secrets.DOCKER_HUB_USER}}/${{secrets.REPO_NAME}}:${{steps.date.outputs.date}}
+      run: sudo docker push ${{secrets.DOCKER_HUB_USER}}/${{secrets.REPO_NAME}}:${{steps.date.outputs.date}}
