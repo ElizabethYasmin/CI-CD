@@ -20,7 +20,7 @@ jobs:
         DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_PASS}}
         REPO_NAME: ${{secrets.REPO_NAME}}
       run: |
-        sudi docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+        sudo docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Get current date # get the date of the build
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d--%M-%S')"
