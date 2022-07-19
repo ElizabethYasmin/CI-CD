@@ -1,2 +1,2 @@
 FROM nginx
-COPY PruebawithJS/ /usr/share/nginx/html
+COPY PruebawithJS/ /usr/share/nginx/PruebawithJS/dist/html
