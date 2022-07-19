@@ -1,2 +1,2 @@
 FROM nginx
-COPY wed_dir/ /usr/share/nginx/html
+COPY PruebawithJS/ /usr/share/nginx/html
