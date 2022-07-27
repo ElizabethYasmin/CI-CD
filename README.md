@@ -24,5 +24,12 @@ https://user-images.githubusercontent.com/62725994/179863459-84279656-a385-4e47-
 Aqui colocaremos nuestro proyecto, que tendra cambios con diferentes versiones.
 ![Screenshot from 2022-07-27 16-43-31](https://user-images.githubusercontent.com/62725994/181377938-9ee0f674-1934-49bc-bf84-97298c611420.png)
 
+## Creacion del flujo de trabajo
+
+https://user-images.githubusercontent.com/62725994/181379352-2ae95e35-fc9c-47de-8a32-5fdbe67d2ad4.mp4
+
+## Creacion de las variables secretas
+
+
 # Referencias
 https://medium.com/nonstopio/part-1-github-actions-docker-hub-versioning-continous-integrations-142cbd95fe0b
