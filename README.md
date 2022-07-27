@@ -30,6 +30,11 @@ https://user-images.githubusercontent.com/62725994/181379352-2ae95e35-fc9c-47de-
 
 ## Creacion de las variables secretas
 
+DOCKER_HUB_USER
+DOCKERHUB_PASS
+REPO_NAME
+
+https://user-images.githubusercontent.com/62725994/181380319-fa823dfc-c9f4-468b-93fb-0c65acc6485b.mp4
 
 # Referencias
 https://medium.com/nonstopio/part-1-github-actions-docker-hub-versioning-continous-integrations-142cbd95fe0b
