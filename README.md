@@ -36,8 +36,9 @@ REPO_NAME
 
 https://user-images.githubusercontent.com/62725994/181380319-fa823dfc-c9f4-468b-93fb-0c65acc6485b.mp4
 
-#Prueba
-[![Alt text](https://img.youtube.com/vi/9oXWQr7hQE0/0.jpg)](https://www.youtube.com/watch?v=9oXWQr7hQE0)
+# Prueba
+
+[![Alt text](https://img.youtube.com/vi/VjAKeduaURc/0.jpg)](https://www.youtube.com/watch?v=VjAKeduaURc)
 
 [![Alt text](https://img.youtube.com/vi/2yOW918vzrM/0.jpg)](https://www.youtube.com/watch?v=2yOW918vzrM)
 
