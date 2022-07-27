@@ -30,9 +30,9 @@ https://user-images.githubusercontent.com/62725994/181379352-2ae95e35-fc9c-47de-
 
 ## Creacion de las variables secretas
 
-DOCKER_HUB_USER
-DOCKERHUB_PASS
-REPO_NAME
+-DOCKER_HUB_USER: Usuario de Docker Hub
+-DOCKERHUB_PASS: Token o contraseña de Docker Hub
+-REPO_NAME: Nombre del repositorio de Docker Hub
 
 https://user-images.githubusercontent.com/62725994/181380319-fa823dfc-c9f4-468b-93fb-0c65acc6485b.mp4
 
